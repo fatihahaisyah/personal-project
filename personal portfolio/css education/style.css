@@ -1,0 +1,36 @@
+body
+{
+    margin:10%;
+    padding:0;
+    font-family: 'Indie Flower', cursive;
+    background-image:url(https://cutewallpaper.org/21/grey-aesthetic-wallpaper/Aesthetic-Cat-Wallpaper-Long-Siboneycubancuisine.com.jpg);
+    background-size: 100%;
+    color: rgb(59, 58, 52);
+
+}
+
+h1 {
+background-image: url(https://cutewallpaper.org/21/grey-aesthetic-wallpaper/Aesthetic-Cat-Wallpaper-Long-Siboneycubancuisine.com.jpg);
+font-family: 'Indie Flower', cursive;
+background-size: 100%;
+color: rgb(146, 68, 93);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  /* Two image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
